@@ -30,13 +30,13 @@ In this project, we demonstrate how to control a robotic car remotely using MQTT
 - ESP8266WiFi library
 
 ## Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](MQTT_ROBOT_CIRCUIT.png)
 
 Connect the components as per the circuit diagram provided above. Make sure to power the NodeMCU and the motor driver separately.
 
 ## Installation
 1. Clone this repository to your local machine.
-2. Open the `robotic_car.ino` file in the Arduino IDE.
+2. Open the `MQTT_Robot_Control.ino` file in the Arduino IDE.
 3. Install the required libraries (`PubSubClient` and `ESP8266WiFi`) in the Arduino IDE.
 4. Set the appropriate Wi-Fi credentials and MQTT broker details in the code.
 5. Connect the NodeMCU to your computer via USB and upload the code to the microcontroller.
